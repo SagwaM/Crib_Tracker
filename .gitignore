@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Local environment variables
+.env
+.env.*
+!.env.example
+!.env.*.example
+
+# Build output and deployment metadata
+dist/
+.output/
+.nitro/
+.vercel/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+bun-debug.log*
+
+# Local caches and editor/OS files
+.cache/
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
